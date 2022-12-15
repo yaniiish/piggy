@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Piggy Bank</title>
+</head>
+<body>
+    <h1 id="titre">My Piggy Bank</h1>
+    <button id='bouton'>alert H1!</button>
+
+    <style type="text/css">
+        .tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+        .tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+        .tftable tr {background-color:#d4e3e5;}
+        .tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
+        .tftable tr:hover {background-color:#ffffff;}
+        </style>
+        
+        <table class="tftable" border="1">
+        <tr><th>Nom </th><th>Description</th><th>Prix</th></tr>
+    <div>
+        <tr>
+            <td>loto</td><td></td><td class="prix">+20</td><td id="delete-button-1">X</td>
+        </tr>
+    </div>
+        <tr>
+            <td>beers</td><td>party</td><td class="prix">-15</td><td id="delete-button-2">X</td>
+        </tr>
+        <tr>
+            <td>phone</td><td>jan</td><td class="prix">-29</td><td id="delete-button-3">X</td>
+        </tr>
+
+        </table>
+        <button id="calcul">Show my money</button>
+ 
+        <form action="">
+            <label>Nom</label>
+            <input type="text" id="formNom">
+
+            <label>Description</label>
+            <input type="text" id="formDesc">
+
+            <label>Prix</label>
+            <input type="text" id="formPrix">
+
+            <button type="submit" id="envoie">Envoyer</button>
+        </form>
+            
+            
+
+    <script src="piggy.js"></script>
+</body>
+</html>
